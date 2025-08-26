@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yassin Bassam - Flutter & Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="brand-text">Yassin Bassam</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text">Yassin Bassam</span>
+                </h1>
+                <p class="hero-subtitle">Flutter Mobile App Developer & Web Developer</p>
+                <p class="hero-description">
+                    Passionate about creating beautiful, functional mobile applications with Flutter 
+                    and dynamic web experiences using modern technologies.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <img src="photos/My Photo.JPG" alt="Yassin Bassam Photo" style="width:100%;height:100%;object-fit:cover;" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a dedicated Flutter mobile app developer and web developer based in Alexandria, Egypt. 
+                        With a passion for creating seamless user experiences, I specialize in building 
+                        cross-platform mobile applications and responsive web solutions.
+                    </p>
+                    <p>
+                        My journey in development has led me to master Flutter for mobile app development, 
+                        while also maintaining strong expertise in web technologies including HTML, CSS, 
+                        JavaScript, PHP, and ASP.NET.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">2+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Client Satisfaction</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">Mobile Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-flutter"></i>
+                            <span>Flutter</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-dart-lang"></i>
+                            <span>Dart</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Cross-Platform</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Web Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-php"></i>
+                            <span>PHP</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>ASP.NET</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Tools & Others</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>Databases</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cloud"></i>
+                            <span>Cloud Services</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">A selection of my mobile and web projects with screenshots</p>
+            <div class="projects-grid">
+                <!-- Chat App -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="photos/chat-app/Chat_1.png" alt="Chat App Screenshot" style="width:100%;height:200px;object-fit:cover;border-radius:8px 8px 0 0;" />
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Chat App</h3>
+                        <p class="project-description">A real-time chat application with modern UI, group and private messaging, and media sharing.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Flutter</span>
+                            <span class="tech-tag">Firebase</span>
+                        </div>
+                        <a href="https://github.com/Yassinbassam11/Chat_App" target="_blank" class="btn btn-primary" style="margin-top:1rem;display:inline-block;">View on GitHub</a>
+                    </div>
+                </div>
+                <!-- Movies App -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="photos/movies-app/Movies_1.png" alt="Movies App Screenshot" style="width:100%;height:200px;object-fit:cover;border-radius:8px 8px 0 0;" />
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Movies App</h3>
+                        <p class="project-description">Browse, search, and view details for the latest movies with beautiful visuals and smooth navigation.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Flutter</span>
+                            <span class="tech-tag">REST API</span>
+                        </div>
+                        <a href="https://github.com/Yassinbassam11/Movies_App" target="_blank" class="btn btn-primary" style="margin-top:1rem;display:inline-block;">View on GitHub</a>
+                    </div>
+                </div>
+                <!-- Dice App -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="photos/dice-app/Dice_1.png" alt="Dice App Screenshot" style="width:100%;height:200px;object-fit:cover;border-radius:8px 8px 0 0;" />
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Dice App</h3>
+                        <p class="project-description">A fun and interactive dice rolling app for games and entertainment, built with Flutter.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Flutter</span>
+                        </div>
+                        <a href="https://github.com/Yassinbassam11/dice-app" target="_blank" class="btn btn-primary" style="margin-top:1rem;display:inline-block;">View on GitHub</a>
+                    </div>
+                </div>
+                <!-- BMI Calculator App -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="photos/bmi-calculator/BMI_1.png" alt="BMI Calculator Screenshot" style="width:100%;height:200px;object-fit:cover;border-radius:8px 8px 0 0;" />
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">BMI Calculator</h3>
+                        <p class="project-description">A mobile app to calculate Body Mass Index (BMI) with a clean and intuitive interface.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Flutter</span>
+                        </div>
+                        <a href="https://github.com/Yassinbassam11/BMI_Calculator" target="_blank" class="btn btn-primary" style="margin-top:1rem;display:inline-block;">View on GitHub</a>
+                    </div>
+                </div>
+                <!-- Online Store Web Project -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="photos/online-store/Online Store_1.png" alt="Online Store Screenshot" style="width:100%;height:200px;object-fit:cover;border-radius:8px 8px 0 0;" />
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Online Store</h3>
+                        <p class="project-description">A responsive e-commerce web application with product listings, cart, and checkout features.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <a href="https://github.com/Yassinbassam11/online-store" target="_blank" class="btn btn-primary" style="margin-top:1rem;display:inline-block;">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let's work together on your next project</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Alexandria, Egypt</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p><a href="mailto:yassinbassam2005@gmail.com">yassinbassam2005@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p><a href="tel:+201091090010">+20 109 109 0010</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <h3>Connect With Me</h3>
+                    <div class="social-buttons">
+                        <a href="https://www.linkedin.com/in/yassin-bassam-8442b81b1/" target="_blank" class="social-btn linkedin">
+                            <i class="fab fa-linkedin-in"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/Yassinbassam11" target="_blank" class="social-btn github">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.instagram.com/yassin_bassam11/" target="_blank" class="social-btn instagram">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Yassin Bassam. All rights reserved.</p>
+                <p>Built with HTML, CSS & JavaScript</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
